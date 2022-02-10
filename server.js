@@ -4,6 +4,7 @@ if(process.env.NODE_ENV!=="PRODUCTION")
  require('dotenv').config({path:"config/config.env"});
 
 const cloudinary = require("cloudinary");
+const port = process.env.PORT || 3000;
 
 const app = require('./app');
 const connectDatabase = require("./config/database");
@@ -20,8 +21,8 @@ cloudinary.config({
   });
 
 
-const server = app.listen(process.env.PORT,()=>{
-    console.log('server is loaded on Port : ',`${process.env.PORT}`);
+const server = app.listen(port,()=>{
+    console.log('server is loaded on Port : ',`${port}`);
 })
 
 // Unhandled Promise Rejection
