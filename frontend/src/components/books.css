@@ -1,0 +1,71 @@
+.heading{
+    text-align: center;
+    width: 25vmax;
+    padding : 1vmax;
+    color: var(--pink);
+    border-bottom: 2px solid var(--pink);
+    margin: 1vmax auto;
+    font: 400 3rem "Roboto";
+}
+
+#container{
+    display: flex;
+    margin : 2vmax auto;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+}
+
+.bookCard{
+    width: 14vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(49, 45, 45);
+    margin: 2vmax;
+}
+
+.bookCard > p{
+    font: 300 1.2rem "Roboto";
+}
+
+.bookCard:hover{
+    box-shadow: 0 0 10px rgb(226, 185, 223);
+    transform:translate(-1vmax);
+}
+
+.outerdiv{
+    display: flex;
+}
+
+.firstdiv{
+    width: 20%;
+    border-right: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vmax;
+}
+
+.firstdiv h3{
+    padding-bottom: 0.2rem;
+}
+
+.firstdiv li{
+    list-style: none;
+    cursor: pointer;
+    padding-bottom: 0.2rem;
+    
+}
+.firstdiv li:hover{
+    color: var(--pink);
+}
+
+@media only screen and (max-width: 750px){
+    .heading{
+        margin-top: 9vmax;
+    }
+    .firstdiv{
+        margin-top: 9vmax;
+    }
+}

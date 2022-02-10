@@ -1,0 +1,64 @@
+.detailsbox{
+    display: flex;
+    width: 100vw;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+
+}
+
+.image{
+width: 40%;
+display: flex;
+justify-content: right;
+}
+
+.image img{
+    margin:auto;
+    width: 25vmax;
+}
+
+.info{
+    width: 50%;
+    padding: 4rem 3rem;
+}
+
+.info h2{
+    color: tomato;
+    font: 600 2vmax "Roboto";
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+.info p{
+      font-family: 'Roboto';
+      font-size: 1.2rem;
+      line-height: 1.36em;
+      letter-spacing: 0.1rem;
+      text-align: justify;
+      padding-bottom: 1.5rem;
+      color: rgb(70, 108, 158);
+}
+
+@media only screen and (max-width: 1000px) {
+.detailsbox{
+    flex-direction: column;
+    margin: 5vmax;
+}
+.image{
+    width: 100%;
+}
+.info{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+}
+@media only screen and (max-width: 750px){
+    .detailsbox{
+        margin-top: 5vmax;
+    }
+}
+}

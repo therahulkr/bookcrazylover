@@ -1,0 +1,43 @@
+#about{
+    display: flex;
+    padding: 2vmax 7vmax;
+  }
+  
+  #about div:before {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 5vh;
+    background: var(--pink);
+  }
+  #about a{
+    text-decoration: none;
+    cursor:auto;
+  }
+  #about img{
+    width:30vw;
+  }
+  #about div{
+    width:60%;
+    margin-left:2vw;
+    /* font-family: 'Prata', serif; */
+    font:250 1.2rem "Roboto";
+      line-height: 1.36em;
+      letter-spacing: 0.1rem;
+      text-align: justify;
+      /* text-transform: uppercase; */
+  }
+  @media only screen and (max-width: 900px) {
+     #about{
+       flex-direction: column;
+       margin-top: 6vmax;
+     }
+     #about img{
+       width: auto;
+       padding-bottom: 2rem;
+     }
+     #about div{
+       width: 100%;
+       margin: auto;
+     }
+  }
