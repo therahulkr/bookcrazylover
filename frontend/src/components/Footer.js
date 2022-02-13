@@ -14,8 +14,8 @@ const Footer = () => {
               <h1>Contact Details:</h1>
                   <ol>
                       <li>Veenita Jeph</li>
-                      <li>Contact number:8178595005</li>
-                      <li>Instagram : @thelostcrazybooklover</li>
+                      <li>8178595005</li>
+                      
                   </ol>
               </div>
           </div>

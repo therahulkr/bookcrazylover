@@ -16,8 +16,7 @@ const About = () => {
              I m so joyous to know that we have the same interest and love towards the books.
               A reader finds another reader. Here, I share my views on books after reading them.
               I usually pick nonfiction, law-based,  historic, tales, translates, Rare classics, and many more.
-<br></br><br></br>
-To learn more about Grace, watch her 73 Questions video on Youtube! </div>
+ </div>
 </section>
   </Fragment>
   

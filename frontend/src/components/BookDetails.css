@@ -42,7 +42,7 @@ justify-content: right;
 @media only screen and (max-width: 1000px) {
 .detailsbox{
     flex-direction: column;
-    margin: 5vmax;
+    padding: 5vmax;
 }
 .image{
     width: 100%;

@@ -30,7 +30,7 @@ const Home = () => {
        {
            loading?<Loader/> : <Fragment><section id="home">
            <img src={require("../imgs/cover1.jpg")}/>
-           <p> Bookstagram is place where you not only found a book but yourself. 
+           <p> Bookc is place where you not only found a book but yourself. 
                If you are a new reader don't know where to start this website might help you
                to found book of your type. Here you can also explore libararies and bookshops near you.
                We provide our honest reviews and brief summary about various book which will hike your enthusiasm towards reading.
